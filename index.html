@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Speed Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="test-contents">
+      <div class="container">
+        <div class="test">
+          <ul class="timerValues">
+            <li class="time active" data-time="60">60</li>
+            <li class="time inactive" data-time="30">30</li>
+            <li class="time inactive" data-time="15">15</li>
+          </ul>
+          <div class="test-parag"></div>
+          <div class="btns-container">
+            <i class="fa-solid fa-pause pause-counter-btn"></i>
+            <i class="fa-solid fa-rotate-left restart-btn"></i>
+          </div>
+        </div>
+        <div class="result">
+          <ul class="numbers">
+            <li class="box wpm">
+              <div class="title">wpm</div>
+              <div class="num">10</div>
+            </li>
+            <li class="box num-mist">
+              <div class="title">mistakes</div>
+              <div class="num">10</div>
+            </li>
+            <li class="box cpm">
+              <div class="title">cpm</div>
+              <div class="num">10</div>
+            </li>
+            <li class="box time">
+              <div class="title">time</div>
+              <div class="num">10</div>
+            </li>
+          </ul>
+          <ul class="btns">
+            <i class="fa-solid fa-angle-right next-test-btn"></i>
+            <i class="fa-solid fa-repeat repeat-same-test-btn"></i>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
